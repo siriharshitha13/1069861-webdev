@@ -1,0 +1,442 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Arial, sans-serif;
+
+    
+
+  }
+
+ 
+
+  body {
+
+    color: #333;
+
+    background-color:black;
+
+  }
+
+ 
+
+  /* .container {
+
+    width: 80%;
+
+    margin: auto;
+
+  } */
+
+ 
+
+  header {
+
+    background: #333;
+
+    color: #fff;
+
+    padding: 20px 0;
+
+    text-align: center;
+
+  }
+
+ 
+
+  header nav ul {
+
+    list-style-type: none;
+
+    padding-top: 10px;
+
+    border-color: #f4f4f4;
+
+    border-radius: 10px;
+
+  }
+
+ 
+
+  header nav ul li {
+
+    /* display: inline; */
+
+    /* margin: 0 15px; */
+
+    /* border-color: #f4f4f4; */
+
+    /* border-radius: 10px; */
+
+    display: inline-block;
+
+    margin: 5px 10px;
+
+    background: #f4f4f4;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+  }
+
+ 
+
+  header nav ul li a {
+
+    color: #171010;
+
+    text-decoration: none;
+
+    /* height: 100px;
+
+    width:100px; */
+
+  }
+
+ 
+
+  .about-content {
+
+    display: flex; /* Aligns items side-by-side */
+
+    align-items: center; /* Centers items vertically */
+
+    gap: 30px; /* Adds space between profile pic and text */
+
+  }
+
+ 
+
+  .profile-pic {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    border: 5px solid #fff;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+
+     flex-shrink: 0;
+
+  }
+
+ 
+
+  .about-text {
+
+    max-width: 600px; /* Restricts text width */
+
+  }
+
+ 
+
+  .about-text h2 {
+
+    margin-bottom: 15px;
+
+  }
+
+ 
+
+  .about-text p {
+
+    line-height: 1.6; /* Improves readability */
+
+  }
+
+ 
+
+  section {
+
+    padding: 50px 0;
+
+  }
+
+ 
+
+  section h2 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+  }
+
+ 
+
+  #skills ul {
+
+    list-style-type: none;
+
+    text-align: center;
+
+  }
+
+ 
+
+  #skills ul li {
+
+    display: inline-block;
+
+    margin: 5px 10px;
+
+    background: #f4f4f4;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+  }
+
+  .skills-info{
+
+    display: block;
+    unicode-bidi: isolate;
+  }
+
+.row{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+} 
+
+p {
+    font-size: 20px;             /* Adjust font size as needed */
+    line-height: 1.6;            /* Better line spacing for readability */
+    color: #f4f4f4;          /* Dark gray color for softer contrast */
+    margin: 1em 0;               /* Adds space above and below */
+    text-align: justify;         /* Justifies text for a clean block look */
+    letter-spacing: 0.5px;       /* Slight letter spacing for readability */
+  }
+  
+  p:first-of-type {
+    font-weight: bold;           /* Emphasizes the first paragraph */
+  }
+  
+  p strong {
+    color: #f4f4f4;                 /* Darker color for emphasized text */
+    font-weight: 600;            /* Adds slight emphasis to strong text */
+  }
+h1{
+    color: #18d26e;
+}
+h2 {
+    color: #18d26e;
+    font-size: 2.0rem;           /* Adjust size as needed */
+    /* font-weight: bold;           Bold style for emphasis */
+                    /* Dark color, adjust as needed */
+    text-align: center;          /* Center-align the title */
+    margin: 20px 0;              /* Adds space above and below */
+    letter-spacing: 1px;         /* Space between letters for readability */
+    line-height: 1.2;            /* Line height for better spacing */
+    text-transform: uppercase;   /* Makes text uppercase for impact */
+  }
+  
+img {
+    border-radius: 50%; /* Makes the image round */
+    border: 3px solid #ccc; /* Adjust color and width as needed */
+    padding: 10px; /* Optional padding */
+    width: 250px; /* Set a width */
+    height: 250px; /* Set a height, ideally the same as width */
+    object-fit: cover; /* Ensures the image is properly scaled within the rounded border */
+  }
+ #image{
+    padding: 30px;
+    align-items: center;
+ }
+
+  #education p {
+
+    text-align: center;
+
+  }
+
+ h3{
+    padding: 20px;
+    color: rgb(173, 40, 69);
+    font-size: 1.2em;
+ }
+
+ footer {
+    background-color: #333;        /* Dark background for contrast */
+    color: #f1f1f1;                /* Light text color for readability */
+    padding: 20px 0;               /* Space above and below */
+    text-align: center;            /* Center-aligns text in footer */
+    font-size: 0.9rem;             /* Slightly smaller font size */
+  }
+  
+  footer span {
+    margin: 10px 0;                /* Adds space between paragraphs in the footer */
+  }
+  .profile_pic{
+    padding: 10px;
+  }
+  #projects .project {
+
+    
+
+    padding: 10px;
+    padding-bottom: 10px;
+
+    margin: 10px 0;
+
+    border-radius: 5px;
+
+  }
+
+ 
+
+  #contact {
+
+    text-align: center;
+
+  }
+
+ 
+
+  footer {
+
+    background: #333;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 10px 0;
+
+    margin-top: 20px;
+
+  }
+
+  p{
+    padding-left: 20px;
+  }
+  .contact-container{
+    margin-left: 20px;
+  }
+  .timeline {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Centers the timeline */
+    position: relative;
+    padding: 20px 0;
+    list-style-type: none;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #ddd;
+    transform: translateX(-50%);
+  }
+  .timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Subtle border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  .date{
+    padding: 6px;
+  }
+  .timeline-item:nth-child(odd) {
+    left: 0;
+  }
+  .timeline-item:nth-child(even) {
+    left: 50%;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4CAF50;
+    border: 4px solid #fff;
+    transform: translateX(-50%);
+  }
+  .timeline-item:nth-child(odd)::before {
+    right: -10px;
+  }
+  .timeline-item:nth-child(even)::before {
+    left: -10px;
+  }
+  .timeline-item-content {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  .timeline-item h3 {
+    margin: 0 0 5px;
+    font-size: 1.2em;
+  }
+  .timeline-item p {
+    margin: 0;
+    color: #666;
+  }
+
+  .contact-form {
+    width: 90%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: auto; /* This centers the form horizontally */
+    position: relative; /* Optional: Use if you want to control vertical alignment */
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100vh;         /* Optional: Sets the height of the container */
+}
+
+  .contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  .contact-form label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .contact-form input, .contact-form textarea, .contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
